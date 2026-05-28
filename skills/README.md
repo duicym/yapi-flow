@@ -1,15 +1,14 @@
-# YApi Flow Skill for WorkBuddy / Claude Code
+# YApi Flow Skill for Claude Code
 
 在 AI 对话中直接操作 YApi，支持契约发布、代码生成、文档导出、质量检查。
 
 ## 安装
 
 ```bash
-# WorkBuddy
-cp -r skills/workbuddy ~/.workbuddy/skills/yapi-flow-skill
+# Claude Code
+cp -r skills/workbuddy ~/.claude/skills/yapi-flow
 
-# Claude Code（与其他 skill 目录同理）
-cp -r skills/workbuddy ~/.claude/skills/yapi-flow-skill
+# 其他兼容 Claude Code skill 规范的 AI 工具同理
 ```
 
 安装后在对话中直接触发：

@@ -4,7 +4,7 @@ description: "YApi 全流程操作技能。将 YApi 从文档工具升级为研�
 agent_created: true
 ---
 
-# YApi Flow Skill
+# YApi Flow Skill (Claude Code)
 
 将 YApi 从文档工具升级为研发流调度中心（Single Source of Truth）。支持契约发布、代码生成、文档导出、质量检查四大能力。
 

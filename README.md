@@ -55,13 +55,13 @@ yapi-flow init
 yapi-flow generate
 ```
 
-## AI 工具集成（WorkBuddy / Claude Code）
+## AI 工具集成（Claude Code）
 
-在 AI 对话中直接操作 YApi，无需离开编辑器。
+在 AI 对话中直接操作 YApi，无需离开终端。
 
 ```bash
-# 安装 skill 到 AI 工具
-cp -r skills/workbuddy ~/.workbuddy/skills/yapi-flow-skill
+# 安装 skill 到 Claude Code
+cp -r skills/workbuddy ~/.claude/skills/yapi-flow
 ```
 
 之后直接在对话中说：
