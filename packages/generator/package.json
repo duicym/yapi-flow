@@ -1,0 +1,18 @@
+{
+  "name": "@yapi-flow/generator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "YApi Flow Stage 3+4 - Code Generation Engine",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@yapi-flow/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

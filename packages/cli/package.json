@@ -1,0 +1,28 @@
+{
+  "name": "@yapi-flow/cli",
+  "version": "0.1.0",
+  "private": true,
+  "description": "YApi Flow CLI - AI-powered API contract factory",
+  "type": "module",
+  "bin": {
+    "yapi-flow": "./dist/cli.js"
+  },
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "tsup src/cli.ts --format esm --dts --clean",
+    "dev": "tsup src/cli.ts --format esm --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@yapi-flow/core": "workspace:*",
+    "@yapi-flow/generator": "workspace:*",
+    "@yapi-flow/publish": "workspace:*",
+    "@yapi-flow/shared": "workspace:*",
+    "commander": "^12.1.0",
+    "cosmiconfig": "^9.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  }
+}
