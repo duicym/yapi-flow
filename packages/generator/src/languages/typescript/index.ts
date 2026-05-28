@@ -1,6 +1,6 @@
 import type { YApiCategory } from '@yapi-flow/shared'
-import type { NormalizedInterface } from '../normalizer'
-import { normalizeInterfaces } from '../normalizer'
+import type { NormalizedInterface } from '../../normalizer'
+import { normalizeInterfaces } from '../../normalizer'
 import { generateTypeDefinitions } from './interface-generator'
 import { generateAxiosClient, generateFetchClient } from './client-generator'
 
