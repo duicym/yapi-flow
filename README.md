@@ -55,6 +55,21 @@ yapi-flow init
 yapi-flow generate
 ```
 
+## AI 工具集成（WorkBuddy / Claude Code）
+
+在 AI 对话中直接操作 YApi，无需离开编辑器。
+
+```bash
+# 安装 skill 到 AI 工具
+cp -r skills/workbuddy ~/.workbuddy/skills/yapi-flow-skill
+```
+
+之后直接在对话中说：
+- "把 swagger.json 发布到 YApi"
+- "从 YApi 项目生成 TypeScript 代码"
+- "导出 YApi 接口文档"
+- "检查 YApi 接口质量"
+
 ## Pipeline
 
 YApi Flow 的四阶段流水线：
