@@ -61,7 +61,7 @@ yapi-flow generate
 
 ```bash
 # 安装 skill 到 Claude Code
-cp -r skills/claude-code ~/.claude/skills/yapi-flow
+cp -r skills/yapi-flow ~/.claude/skills/yapi-flow
 ```
 
 之后直接在对话中说：
