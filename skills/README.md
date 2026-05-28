@@ -6,7 +6,7 @@
 
 ```bash
 # Claude Code
-cp -r skills/workbuddy ~/.claude/skills/yapi-flow
+cp -r skills/claude-code ~/.claude/skills/yapi-flow
 
 # 其他兼容 Claude Code skill 规范的 AI 工具同理
 ```
